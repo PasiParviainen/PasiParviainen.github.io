@@ -64,6 +64,9 @@ footer a{
 }
 
 .navbartop {
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
 	position: fixed;
 	top: 0;
 	width: 100%;
