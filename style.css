@@ -1,0 +1,171 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Noto Sans Mono', monospace;
+  background: linear-gradient(#002855, #001233);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #EEEF20;
+  margin: 20px;
+}
+
+h2 {
+  color: white;
+  margin: 20px;
+}
+
+h3 {
+	color: white;
+	margin: 20px;
+}
+
+h4 {
+	color: white;
+	margin: 20px;
+  font-weight: lighter;
+}
+
+p {
+  color: white;
+  margin: 25px;
+  line-height: 35px;
+}
+
+span {
+	color: white;
+}
+
+ul {
+	color: white;
+}
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+  height: auto;
+}
+
+footer {
+  background-color: transparent;
+  overflow: hidden;
+  padding: 10px 10px;
+  margin-top: 30px;
+}
+
+footer a{
+  color: gray;
+}
+
+.navbartop {
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbartop a {
+  float: right;
+  color: gray;
+  text-align: center;
+  padding: 40px 30px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 1px;
+}
+
+.navbartop a.active:hover {
+  background-color: #023e7d;
+  color: white;
+}
+
+.navbartop a.active {
+  background-color: #0466c8;
+  color: white;
+}
+
+.navbartop a.inactive {
+  background-color: #001845;
+  color: gray;
+}
+
+.navbartop a.name {
+	float: left;
+	color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.navbartop a.title {
+	float: left;
+	color: white;
+  text-align: left;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 50%;
+}
+
+.portrait {
+	flex: center;
+	padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 65px;
+}
+
+hr.dashed {
+  border-top: 3px dashed #001845;
+}
+
+hr.dotted {
+  border-top: 3px dotted #001845;
+}
+
+hr.solid {
+  border-top: 2px solid #001845;
+  border: 0;
+}
+
+hr.rounded {
+  border: 2px solid #33415C;
+  border-radius: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.inline-img {
+	height: 42px;
+	align-items: center;
+  margin: 4px;
+  padding: 0;
+  border-radius: 5px;
+}
+.nameicon-text{
+	align-items: left;
+}
+
+.main {
+	padding-left: 160px;
+}
+
+img.sivulogo {
+  padding-top: 17px;
+  width: 75px;
+  height: 75px;
+}
